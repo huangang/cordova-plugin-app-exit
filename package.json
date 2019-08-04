@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-app-exit",
+  "version": "0.0.1",
+  "description": "Implements navigator.app.exitApp on Android and iOS",
+  "cordova": {
+    "id": "cordova-plugin-app-exit",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangang/cordova-plugin-app-exit.git"
+  },
+  "keywords": [
+    "cordova",
+	  "exit",
+    "terminate",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "huangang <huangang.zhang@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/huangang/cordova-plugin-app-exit/issues"
+  },
+  "homepage": "https://github.com/huangang/cordova-plugin-app-exit#readme"
+}
