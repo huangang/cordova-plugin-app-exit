@@ -19,7 +19,7 @@ This plugin is meant to work with Cordova 3.5.0+.
 
 2. Install this plugin using PhoneGap/Cordova cli:
 
-        cordova plugin add https://github.com/huanganng/cordova-plugin-app-exit.git
+        cordova plugin add https://github.com/huangang/cordova-plugin-app-exit.git
         cordova plugin add cordova-plugin-app-exit
 
 ## Usage
