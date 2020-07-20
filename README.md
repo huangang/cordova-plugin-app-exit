@@ -1,15 +1,19 @@
 # ExitApp PhoneGap/Cordova Plugin
 changed support cordova 7.0+ & publish npm list
 
-### Platform Support
+### Supported Platforms
 
-This plugin supports PhoneGap/Cordova apps running on both iOS and Android.
+- Android
+- iOS
+- Browser*
+
+\* _Only for development purpose._
 
 ### Version Requirements
 
 This plugin is meant to work with Cordova 3.5.0+.
 
-## Installation
+### Installation
 
 #### Automatic Installation using PhoneGap/Cordova CLI (iOS and Android)
 1. Make sure you update your projects to Cordova iOS version 3.5.0+ before installing this plugin.
@@ -22,6 +26,6 @@ This plugin is meant to work with Cordova 3.5.0+.
         cordova plugin add https://github.com/huangang/cordova-plugin-app-exit.git
         cordova plugin add cordova-plugin-app-exit
 
-## Usage
+### Usage
 
     navigator.app.exitApp();
