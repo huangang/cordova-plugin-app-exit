@@ -32,4 +32,16 @@
     <header-file src="src/ios/ExitApp.h" target-dir="ExitApp"/>
     <source-file src="src/ios/ExitApp.m" target-dir="ExitApp"/>
   </platform>
+  <!-- browser -->
+  <platform name="browser">
+    <config-file target="config.xml" parent="/*">
+      <feature name="ExitApp">
+        <param name="browser-package" value="ExitApp" />
+      </feature>
+    </config-file>
+
+    <js-module src="src/browser/ExitApp.js" name="ExitApp">
+      <runs />
+    </js-module>
+  </platform>
 </plugin>
